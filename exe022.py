@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome:'))
+print(nome.upper())
+print(nome.lower())
+junto = nome.replace(' ', '')
+print('Esse nome ao todo tem', len(junto), 'letras')
+pnome = nome.split()
+print('O primeiro nome ao todo tem', len(pnome[0]), 'letras')

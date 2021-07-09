@@ -1,0 +1,5 @@
+valor = float(input('Digite um valor para converte-lo: R$'))
+print('Câmbio em relação ao Real (12/05/21).\nCom R${:.2f} você pode comprar:'.format(valor))
+print('=' * 12)
+print('Dólar: U${:.2f}\nEuro: €{:.2f}\nLibra: £{:.2f}'.format(valor / 5.23, valor / 6.31, valor / 7,36))
+print('=' * 12)

@@ -1,0 +1,6 @@
+print('Obrigado por alugar um vaículo na Wender Motors!')
+dia = int(input('Por favor, informe por quantos dias o veículo foi alugado:'))
+km = float(input('Por favor, informe a quilometragem rodada:'))
+preço = (60 * dia) + (0.15 * km)
+print('O preço total a pagar é de R${:.2f}.'.format(preço))
+print('Viva o capitalismo vadias')

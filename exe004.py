@@ -1,0 +1,8 @@
+#n = input('Digite algo:')
+#print((type(n)), (n.isalpha(),n.isnumeric()))
+n = input('digite algo:')
+print('o tipo primitivo desse valor é', type(n))
+print('só tem espaços?', n.isspace())
+print('é um número?', n.isnumeric())
+print('é alfabetico?', n.isalpha())
+print('é alfanumerico?', n.isalnum())
