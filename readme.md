@@ -1,0 +1,1 @@
+Atividades que exerci em meu curso de Python - Módulo 1, pelo Curso em Vídeo.
